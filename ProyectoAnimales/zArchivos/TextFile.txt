@@ -1,0 +1,11 @@
+﻿Scaffold-DbContext "Data Source=LENOVO320\sqlexpress;Initial Catalog=Animales;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/EF -f
+
+dotnet ef dbcontext scaffold "Data Source=LENOVO320\sqlexpress;Initial Catalog=Animales;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/EF 
+
+
+Codigos de resultados:
+---------------------
+0 = no tienes permiso / ha ocurrido un error
+1 = Ejecutado correctamente
+2 = Ejecutado correctamente, sin resultados / no existe / ya existe
+3 = modelo (ModeloState) no valido
